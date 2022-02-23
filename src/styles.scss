@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'oxygenregular';
+    src: url('./fonts/oxygen-regular-webfont.woff2') format('woff2'),
+         url('./fonts/oxygen-regular-webfont.woff') format('woff'),
+         url('./fonts/oxygen-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+  font-family: sans-serif;
+}
