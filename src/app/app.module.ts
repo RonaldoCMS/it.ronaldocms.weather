@@ -19,6 +19,7 @@ import { RadarComponent } from './radar/radar.component';
 import { MonthlyComponent } from './monthly/monthly.component';
 import { LastTenDayComponent } from './last-ten-day/last-ten-day.component';
 import { FooterComponent } from './footer/footer.component';
+import { WidgetWeatherComponent } from './widget/widget-weather/widget-weather.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { FooterComponent } from './footer/footer.component';
     MonthlyComponent,
     LastTenDayComponent,
     FooterComponent,
+    WidgetWeatherComponent,
   ],
   imports: [
     BrowserModule,

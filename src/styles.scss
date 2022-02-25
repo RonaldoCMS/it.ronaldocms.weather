@@ -1,11 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 @font-face {
-    font-family: 'oxygenregular';
-    src: url('./fonts/oxygen-regular-webfont.woff2') format('woff2'),
-         url('./fonts/oxygen-regular-webfont.woff') format('woff'),
-         url('./fonts/oxygen-regular-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "oxygenregular";
+  src: url("./fonts/oxygen-regular-webfont.woff2") format("woff2"),
+    url("./fonts/oxygen-regular-webfont.woff") format("woff"),
+    url("./fonts/oxygen-regular-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 * {
@@ -15,10 +15,94 @@
 body {
   max-width: 1200px;
   width: 100%;
+  margin: 2%;
+  background-color: cadetblue;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
+.main-card-dark {
+  margin: auto;
+  background-color: rgb(41, 21, 151);
+  color: #fff;
+  border-radius: 2%;
+  width: 300px;
+  height: 300px;
+
+  .title {
+    padding: 2% 2%;
+    background-color: rgba($color: #000000, $alpha: 0.4);
+    border-top-right-radius: 2%;
+    border-top-left-radius: 2%;
+    font-weight: bold;
+
+    font-size: 1.3rem;
+  }
+
+  .subtitle {
+    font-weight: 300;
+    font-size: 0.8rem;
+  }
 }
 
+.main-card {
+  margin: auto;
+  background-color: #fff;
+  border-radius: 2%;
+  max-width: 350px;
+  padding: 2px 12px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+
+  .title {
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+
+  .subtitle {
+    font-weight: 300;
+    font-size: 0.8rem;
+  }
+
+  .btn-std {
+    padding: 8px 14px;
+    background-color: #1b4de4;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #fff;
+    border-color: transparent;
+    cursor: pointer;
+
+    &:hover {
+      box-shadow: rgba(61, 136, 206, 0.5) 0px 2px 10px,
+        inset #1b4de4 0px -1px 2px;
+    }
+
+    &:active {
+      box-shadow: rgba(61, 136, 206, 0.5) 0px 2px 10px,
+      inset #1b4de4 0px -1px 2px;
+    }
+  }
+}
+
+.listitem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
