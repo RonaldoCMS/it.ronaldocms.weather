@@ -1,0 +1,22 @@
+nav  {
+  background-color: #011B30;
+  ul {
+    display: flex;
+    justify-content: center;
+    li {
+      margin: 0 2em;
+      padding: 1em 0;
+      cursor: pointer;
+    }
+  }
+}
+
+ol , ul
+{
+  list-style: none;
+}
+
+.current
+,li:hover {
+  border-bottom: 2px white solid;
+}

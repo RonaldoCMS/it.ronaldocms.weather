@@ -1,0 +1,62 @@
+
+#main {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0.5em 0;
+  background-color: #022D50;
+
+  .content-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    span {
+      width: 8px;
+    }
+  }
+
+  .searchBar {
+    color: #355773;
+    border-radius: 20px;
+    border: white 1px solid;
+    padding: 8px;
+    input {
+      background-color: transparent;
+      border: 0;
+      text-align: center;
+      color: white;
+      }
+
+    }
+
+    .options {
+      display: flex;
+      select {
+        background-color: transparent;
+        border: transparent;
+        color: white;
+        option {
+          background-color: #022D50;
+          border: 0;
+        }
+      }
+    }
+
+  }
+
+
+input:focus
+  {
+    outline:0;
+  }
+img {
+  width: 48px;
+  height: 48px;
+  display: inline;
+}
+
+i {
+  cursor: pointer;
+}

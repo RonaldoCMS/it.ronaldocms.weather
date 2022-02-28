@@ -10,13 +10,19 @@
 
 * {
   font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  min-height: 100%;
 }
 
 body {
-  max-width: 1200px;
   width: 100%;
-  margin: 2%;
-  background-color: cadetblue;
+  background: linear-gradient(#022D50, #13588B);
+  background-repeat: no-repeat;
+  background-position: cover;
   box-sizing: border-box;
   font-size: 16px;
 }
